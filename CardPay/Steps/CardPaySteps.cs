@@ -108,27 +108,7 @@ namespace ProjectForCardPay
                 _driver.FindElement(By.Id("payment-item-status"));
             Assert.AreEqual("Payment status Declined by issuing bank", paymentStatusDeclined.Text);
         }
-        //IWebElement paymentItemStatus =
-        //	_driver.FindElement(By.Id("payment-item-status"));
-        //Assert.Equal("Payment status Confirmed", paymentItemStatus.Text);
-
-        //IWebElement paymentCardNumber =
-        //	_driver.FindElement(By.Id("payment-item-cardnumber"));
-        //Assert.Equal("Card number ...0077", paymentCardNumber.Text);
-
-        //IWebElement paymentCardType =
-        //	_driver.FindElement(By.Id("payment-item-cardtype"));
-        //Assert.Equal("Card type VISA", paymentCardType.Text);
-
-        //IWebElement paymentCardHolder =
-        //	_driver.FindElement(By.Id("payment-item-cardholder"));
-        //Assert.Equal("Card holder IVAN IVANOV", paymentCardHolder.Text);
-
-        //IWebElement paymentItemTotal =
-        //	_driver.FindElement(By.Id("payment-item-total"));
-        //Assert.Equal("Total amount EUR   291.86", paymentItemTotal.Text);
-
-
+        
         [AfterScenario]
         public void closeWebDriver()
         {
