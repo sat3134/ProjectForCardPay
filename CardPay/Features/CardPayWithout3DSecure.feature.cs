@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace Test1.Features
+namespace CardPay.Features
 {
     using TechTalk.SpecFlow;
     

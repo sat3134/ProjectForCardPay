@@ -9,8 +9,8 @@
     <ProjectGuid>{8298CAC7-46EA-4807-974B-9CEE09758958}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Test1</RootNamespace>
-    <AssemblyName>Test1</AssemblyName>
+    <RootNamespace>CardPay</RootNamespace>
+    <AssemblyName>CardPay</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
